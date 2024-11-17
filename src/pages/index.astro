@@ -1,16 +1,49 @@
 ---
+import Image from "astro/components/Image.astro";
 
+import ImageHero from "../assets/img/image.png";
+import data from "../data/courses.json";
+
+import Navbar from "../components/Navbar.astro";
+import CourseTheme from "../components/CourseTheme.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>EduBoy</title>
+  </head>
+  <body class="container mx-auto">
+    <Navbar />
+    <main class="mt-16 bg-white w-full border-gray-200">
+      <div class="max-w-screen-xl mx-auto p-4">
+        <section class="flex gap-6">
+          <Image
+            class="w-96"
+            src={ImageHero}
+            alt="Imágen principal"
+            width={500}
+            height={400}
+          />
+          <div class="flex flex-col justify-center">
+            <h1 class="font-bold text-4xl mb-6">
+              Aprende y refuerza conocimientos.
+            </h1>
+            <p>Buscamos que aprendas de la manera más didáctica posible.</p>
+          </div>
+        </section>
+        <section>
+          <h2 class="text-3xl font-bold text-center my-4">
+            Conoce nuestros temas
+          </h2>
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-2">
+            {data.map((courseTheme) => <CourseTheme data={courseTheme} />)}
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>

@@ -1,0 +1,28 @@
+---
+import courses from "../data/courses.json";
+import CourseLevel from "./CourseLevel.astro";
+
+interface Props {
+  data: (typeof courses)[0];
+}
+
+const { data } = Astro.props;
+---
+
+<article>
+  <details open>
+    <summary
+      class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200"
+      >{data.name}</summary
+    >
+    <ul class="p-5 border border-gray-200 grid grid-cols-4 gap-4">
+      {
+        data.levels.map((level) => (
+          <li>
+            <CourseLevel level={level} />
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+</article>

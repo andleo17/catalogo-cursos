@@ -1,0 +1,18 @@
+---
+import data from "../data/courses.json";
+
+import QRCode from "qrcode";
+
+interface Props {
+  level: (typeof data)[0]["levels"][0];
+}
+
+const { level } = Astro.props;
+
+const qr = await QRCode.toDataURL(level.name);
+---
+
+<a href={level.url} target="_blank" class="flex flex-col items-center">
+  <img src={qr} alt={`QR de ${level.name}`} class="w-24" />
+  <span class="text-center">{level.name}</span>
+</a>

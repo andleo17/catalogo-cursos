@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Matemáticas",
+    "levels": [
+      {
+        "name": "Maximo común divisor y mínimo común múltiplo",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:maximo-comun-divisor-y-mini"
+      },
+      {
+        "name": "Números: operaciones con números enteros",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:numeros-operaciones-con-numeros-enteros"
+      },
+      {
+        "name": "Números: fracciones equivalente y adición y sustracción",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:numeros-fracciones-equivalente-y-adicion-y-sustraccion"
+      },
+      {
+        "name": "Números: expresiones fraccionarias, decimales y porcentuales",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:numeros-expresiones-fraccionarias-decimales-y-porcentuales"
+      },
+      {
+        "name": "Álgebra: expresiones algebraicas, ecuaciones y desigualdades",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:algebra-expresiones-algebraicas-ecuaciones-y-desigualdades"
+      },
+      {
+        "name": "Álgebra: proporcionalidad directa e inversa",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:algebra-proporcionalidad-directa-e-inversa"
+      },
+      {
+        "name": "Álgebra: función y sucesiones aritméticas",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:algebra-funcion-y-sucesiones-aritmeticas"
+      },
+      {
+        "name": "Geometría: rectas y figuras bidimensionales",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:geometria-rectas-y-figuras-bidimensionales"
+      },
+      {
+        "name": "Geometría: formas bidimensionales y tridimensionales",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:geometria-formas-bidimensionales-y-tridimensionales"
+      },
+      {
+        "name": "Geometría: plano coordenado, dibujos y transformaciones",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:geometria-plano-coordenado-dibujos-y-transformaciones"
+      },
+      {
+        "name": "Probabilidad y estadística",
+        "url": "https://es.khanacademy.org/math/1-secundaria-pe/xc734090530553e83:probabilidad-y-estadistica"
+      }
+    ]
+  },
+  {
+    "name": "Ciencia y tecnología",
+    "levels": [
+      {
+        "name": "Introducción a la ciencia",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:unidad-introduccion"
+      },
+      {
+        "name": "La materia y el átomo",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:la-materia-y-el-atomo"
+      },
+      {
+        "name": "Fuerza y movimiento",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:fuerza-y-movimiento"
+      },
+      {
+        "name": "La luz como onda",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:la-luz-como-onda"
+      },
+      {
+        "name": "La célula",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:la-celula"
+      },
+      {
+        "name": "Clasificación de los seres vivos",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:clasificacion-de-los-seres-vivos"
+      },
+      {
+        "name": "Dinámica de los ecosistemas",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:dinamica-de-los-ecosistemas"
+      },
+      {
+        "name": "Teorías y evidencias de la evolución",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:teorias-y-evidencias-de-la-evolucion"
+      },
+      {
+        "name": "El universo",
+        "url": "https://es.khanacademy.org/science/1-de-secundaria-ciencias/xf28de3a95be5c0dc:el-universo"
+      }
+    ]
+  }
+]
